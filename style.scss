@@ -1,17 +1,26 @@
 // seletores: propriedades:valores
 
-header {
-  background-color: rgb(0, 57, 202);
-  color: rgb(246, 245, 245);
-  text-align: center;
-  padding: 1rem;
+// tag: selecionar todo mundo
+// classe: um ou mais estilos
+// id//; um estilo
+// seletor universal = *
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-img{
+// selecioando por tag
+img {
     width: 300px;
 }
-button{
-  background-color: rgb(218, 118, 4);
-
+// selecionando por classe
+.card{
+  background-color: red;
+  border: 10px solid green;
+  // opacity: 0.7
+  ;
 }
-
+// selecionando por id
+#btn1{
+  background-color: rgb(7, 237, 49);
+}
