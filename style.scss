@@ -1,26 +1,68 @@
-// seletores: propriedades:valores
+// seletor(propriedade : valor)
 
-// tag: selecionar todo mundo
-// classe: um ou mais estilos
-// id//; um estilo
-// seletor universal = *
-* {
+// seletor global
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-// selecioando por tag
-img {
-    width: 300px;
+
+body{
+font-family: "Roboto", sans-serif;
+
+
 }
-// selecionando por classe
+
+//cores e tipografias
+header{
+//cores em inglês: red, blue, green, black, white
+//RGB: red, green, blue 
+//0 a 255
+//rgba: red, green, blue, alpha(opacidade) 0 a 1
+
+ 
+  background-color: rgba(0,0,255,0.5);
+}
+
+
+
+
+
+//Tag 
+h2{
+color: blue;
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+}
+//class
+
 .card{
-  background-color: red;
-  border: 10px solid green;
-  // opacity: 0.7
-  ;
+  border: solid;
+  border-radius: 10px;
+  width: 30vw;
+  padding: 10px;
+
+//cores
+//hexadecimal: #RRGGBB
+
+background-color: #ced4da;
+
+
+img{
+// (%) se ajusta de acordo com a caixa pai 
+  width: 100%;
+  height: 50vh;
 }
-// selecionando por id
-#btn1{
-  background-color: rgb(7, 237, 49);
+button{
+background-color: red;
+width: 30%;
+ 
 }
+
+}
+//Medidas
+//fixa: QUE NÃO VAI SE ADAPTAR px (fixo) Não muda
+//relativa: QUE VAI SE ADAPTAR % (porcentagem) mudaM CONFORME O TAMANHO DA TELA 
+//vh (view height) 1vh = 1% da altura da tela mudaM CONFORME O TAMANHO DA TELA 
+//vw (view width) 1vw = 1% da largura da tela mudaM CONFORME O TAMANHO DA TELA
+ 
